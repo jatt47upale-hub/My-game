@@ -1,0 +1,9 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="CareCart NZ e-commerce storefront"><title>CareCart NZ — Shop</title><link rel="stylesheet" href="style.css"></head><body>
+<div class="top">Free shipping on orders over <b>$50 NZD</b> • Secure shopping demo</div>
+<header><div class="nav"><a class="logo" href="index.html">Care<span>Cart</span> NZ</a><div class="search"><input id="search" placeholder="Search products, brands..."><button>⌕</button></div><nav class="navlinks"><a href="index.html">Home</a><a href="shop.html">Shop</a><a href="about.html">About</a></nav><button class="cart" onclick="openCart()">Cart <span class="count">0</span></button></div></header>
+
+<section class="pagehero"><div class="pagehero-in"><div class="eyebrow">Shop</div><h1>Find your favourites</h1><p class="muted">Browse by category or search for a product.</p></div></section>
+<section class="section"><div class="chips" id="chips"></div><div class="grid" id="products"></div></section>
+<footer><div class="foot"><div><b>CareCart NZ</b><br><small>Modern e-commerce storefront starter.</small></div><small>© 2026 CareCart NZ • Replace demo business details, policies, prices and payment settings before launch.</small></div></footer>
+<div class="drawer" id="drawer" onclick="if(event.target===this)closeCart()"><aside class="panel"><div class="panelhead"><h2>Your cart</h2><button class="close" onclick="closeCart()">✕</button></div><div class="cartitems" id="cartitems"></div><div class="summary" id="summary"></div></aside></div>
+<script src="app.js"></script></body></html>
